@@ -25,7 +25,7 @@ export const IPHONE_PRODUCTS: Product[] = [
     category: 'Standard Models',
     price: 799,
     description: 'A total powerhouse. With the Dynamic Island, 48MP Main camera, and USB-C. All in a durable color-infused glass and aluminum design.',
-    imageUrl: 'https://images.unsplash.com/photo-1700202948197-004d3e83d8e8?q=80&w=600&auto=format&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1678248478931-359f1334c6f5?q=80&w=600&auto=format&fit=crop',
     specs: {
       storage: ['128GB', '256GB', '512GB'],
       colors: ['Blue', 'Pink', 'Yellow', 'Green', 'Black'],

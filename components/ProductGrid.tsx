@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { ProductCard } from './ProductCard';
+import { HeroBanner } from './HeroBanner';
 import type { Product } from '../types';
 import { IPHONE_PRODUCTS } from '../constants';
 
@@ -45,6 +46,7 @@ export const ProductGrid: React.FC<ProductGridProps> = ({ onProductSelect, searc
 
   return (
     <div>
+      <HeroBanner />
       <h1 className="text-3xl font-bold text-gray-900 mb-2">Wholesale iPhones</h1>
       <p className="text-gray-600 mb-6">Bulk pricing available for all models. Click on a product for more details.</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
